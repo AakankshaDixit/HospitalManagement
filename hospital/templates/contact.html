@@ -1,0 +1,46 @@
+{% extends 'navigationbar.html' %}
+
+{% load static %}
+{% block body %}
+
+<style>
+	.mydivstyle:hover{
+	box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+
+</style>
+
+<div class="container" style =" margin-top:50px">
+<h2 class="text-center">Contact Details</h2>
+<br><br>
+<div class="row mt-5 text-center">
+	<div class="col-lg-3 col-sm-6 mydivstyle">
+		<h4><i class="fas fa-phone-square"></i> Contact </h4>
+		<p class="mt-3 font-weight-bold"><a class="text-danger" href="tel:+91 9781268788">+91 9781268788</a></p>
+	</div>
+
+	<div class="col-lg-3 col-sm-6 mydivstyle">
+		<h4><i class="fas fa-envelope"></i> Send Email</h4>
+		<p class="mt-3 font-weight-bold"><a class="text-danger" href="mailto:akdixit1098@gmail.com">akdixit1098@gmail.com</a></p>
+	</div>
+
+	<div class="col-lg-3 col-sm-6 mydivstyle">
+		<h4><i class="fas fa-address-card"></i> Office Address</h4>
+		<p class="mt-3 font-weight-bold"><a class="text-danger" target="target_blank" href=" http://maps.google.com/maps?q=AbuRoad+Rajasthan">AbuRoad Rajasthan</a></p>
+	</div>
+
+	<div class="col-lg-3 col-sm-6 mydivstyle">
+		<h4><i class="fas fa-address-card"></i> Office Hours</h4>
+		<p class="mt-3 font-weight-bold text-danger">9:00Am to 7:00Pm</p>
+	</div>
+
+</div>
+
+
+
+</div>
+
+
+
+{% endblock %}
